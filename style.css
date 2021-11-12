@@ -6,7 +6,7 @@
 
 body{
     background-color: black;
-    font-family: 'roboto' sans-serif;
+    font-family: 'roboto', sans-serif;
 }
 
 .screenview{                                /*pulsanti header*/
@@ -24,10 +24,9 @@ body{
 
 .container{                                   /*schermata utenti*/
     width: 90%;
-    margin: 0 auto;
-    height: 60vh;
+    margin: 40px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     align-items: flex-start;
 }
@@ -36,6 +35,8 @@ body{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
+    margin-bottom: 10px;
+    margin-right: 5px;
     position: relative;
 }
 .container span{
@@ -46,3 +47,42 @@ body{
     left: 0;
     bottom: 3px;
 }
+
+
+ footer{                                            /*footer*/
+     height: 10vh;
+     background-color: #222222;
+ }
+ nav{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+}
+    
+
+ .function{
+    margin-left: 5px;
+    width: 3vw;
+    height: 10vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.function span{
+    margin-top: 3px;
+}
+.function i{
+    font-size: 25px;
+}
+
+
+
+
+
